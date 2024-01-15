@@ -1,0 +1,8 @@
+// The program input for hello/src/main.leo
+[main]
+public a: u32 = 1u32;
+b: u32 = 2u32;
+
+[cheese]
+public a: u32 = 2u32;
+b: u32 = 8u32;
