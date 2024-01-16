@@ -5,7 +5,11 @@ program hello.aleo {
         return c;
     }
 
-    transition cheese(public a: u32, b: u32) -> u32 {
+    function butter(a: u32, b: u32) -> u32 {
         return a * b;
+    }
+
+    transition cheese(private a: u32, private b: u32) -> u32 {
+        return butter(a, b);
     }
 }
